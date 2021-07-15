@@ -9,8 +9,7 @@
     },
     "devDependencies": {},
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-
+        "build-css": "npx tailwindcss build ./css/main.css -o ./css/style.css --watch"
     },
     "repository": {
         "type": "git",
